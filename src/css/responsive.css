@@ -1,0 +1,325 @@
+@media (min-width:595px) and (max-width:900px) {
+    .logo {
+        margin-left: 30px;
+    }
+    
+    .menu-opener {
+        display: block;
+        width: 35px;
+        margin-right: 45px;
+    }
+    
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 70px);
+        top: 70px;
+        right: 0;
+    }
+
+    .menu ul, .section-suplemento, .section-preco-area .sliders, footer {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+    }
+
+    .menu li.active a {
+        border: 0;
+        color: green;
+    }
+
+    .section-sobrenos {
+        flex-direction: column-reverse;
+    }
+
+    .section-sobre-left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-sobre-right {
+        margin-bottom: 30px;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child {
+        border-left: 0;
+    }
+
+    #horarios td, #horarios th {
+        padding: 8px 60px;
+    }
+
+    .section-dicas-filters {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .section-team {
+        max-width: 580px;
+    }
+    
+    .section-map-area {
+        width: auto;
+    }
+
+    .section-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section-map-info {
+        width: auto;
+    }
+
+    .section-map-info-item {
+        margin-bottom: 20px;
+    }
+
+    .section-map-info-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .patrocinadores {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .section-patro {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-preco-area .slide {
+        margin-bottom: 30px;
+    }
+
+    .suplemento-img {
+        position: relative;
+        margin-bottom: 30px;
+        width: auto;
+    }
+
+    .section-suplemento {
+        width: auto;
+        margin-left: 30px;
+    }
+
+    .section-contact {
+        width: 75%;
+    }
+    
+    .footer-area {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer-midia {
+        margin: auto;
+    }
+
+    .footer-desc, .footer-form {
+        padding: 30px 50px;
+        margin: auto;
+        width: auto;
+    }
+
+    .footer-form {
+        margin-bottom: 50px;
+    }
+
+    footer .cop {
+        left: 10px;
+        bottom: 30px;
+    }
+
+    
+}
+
+@media (max-width:595px) {
+    .logo {
+        margin-left: 30px;
+    }
+    
+    .menu-opener {
+        display: block;
+        width: 35px;
+        margin-right: 45px;
+    }
+    
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 70px);
+        top: 70px;
+        right: 0;
+    }
+
+    .menu ul, .section-suplemento, .section-preco-area .sliders, footer {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+
+    .menu li.active a {
+        border: 0;
+        color: green;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner h2 {
+        font-size: 16px;
+    }
+
+    .section-sobrenos {
+        flex-direction: column-reverse;
+    }
+
+    .section-sobre-left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-sobre-right {
+        margin-bottom: 30px;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child {
+        border-left: 0;
+    }
+
+    #horarios td, #horarios th {
+        padding: 8px 35px;
+    }
+
+    .section-dicas-foto {
+        width: 320px;
+    }
+
+    .section-dicas-fotoarea {
+        width: 300px;
+        height: 190px;
+    }
+    
+    .section-dicas-filters {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-team {
+        max-width: 280px;
+    }
+
+    .patrocinadores {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .suplemento-img img  {
+        width: 350px;
+    }
+
+    .suplemento-desc {
+        width: 100%;
+    }
+    
+    .section-map-area {
+        width: auto;
+    }
+
+    .section-map {
+        padding: 0;
+        padding-bottom: 250px;
+    }
+
+    .section-map-info {
+        width: auto;
+    }
+
+    .section-map-info-item {
+        margin-bottom: 20px;
+    }
+
+    .section-map-info-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .section-patro {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-preco-area .slide {
+        margin-bottom: 30px;
+    }
+
+    
+    .section-contact {
+        width: 75%;
+    }
+
+    .footer-area {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer-midia {
+        justify-content: center;
+    }
+
+    .footer-desc, .footer-form {
+        padding: 30px 30px;
+        margin: auto;
+        width: auto;
+    }
+
+    .footer-form {
+        margin-bottom: 50px;
+    }
+
+    footer .cop {
+        left: 10px;
+        bottom: 30px;
+    }
+
+}
